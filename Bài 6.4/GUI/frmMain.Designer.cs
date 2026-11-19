@@ -112,9 +112,7 @@
             this.grpDanhSachPhieu.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPhieuSuaChua)).BeginInit();
             this.SuspendLayout();
-            // 
-            // tabControlMain
-            // 
+
             this.tabControlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -126,9 +124,7 @@
             this.tabControlMain.SelectedIndex = 0;
             this.tabControlMain.Size = new System.Drawing.Size(1156, 696);
             this.tabControlMain.TabIndex = 0;
-            // 
-            // tabTiepNhan
-            // 
+
             this.tabTiepNhan.Controls.Add(this.grpPhuTung);
             this.tabTiepNhan.Controls.Add(this.grpTiepNhan);
             this.tabTiepNhan.Location = new System.Drawing.Point(4, 24);
@@ -138,9 +134,7 @@
             this.tabTiepNhan.TabIndex = 0;
             this.tabTiepNhan.Text = "1. Tiếp nhận Xe & Kho Phụ tùng";
             this.tabTiepNhan.UseVisualStyleBackColor = true;
-            // 
-            // grpPhuTung
-            // 
+
             this.grpPhuTung.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -161,9 +155,7 @@
             this.grpPhuTung.TabIndex = 1;
             this.grpPhuTung.TabStop = false;
             this.grpPhuTung.Text = "Quản lý Danh mục Phụ tùng & Tồn kho";
-            // 
-            // btnLamMoiPT
-            // 
+
             this.btnLamMoiPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLamMoiPT.Location = new System.Drawing.Point(345, 585);
             this.btnLamMoiPT.Name = "btnLamMoiPT";
@@ -172,9 +164,7 @@
             this.btnLamMoiPT.Text = "Làm mới";
             this.btnLamMoiPT.UseVisualStyleBackColor = true;
             this.btnLamMoiPT.Click += new System.EventHandler(this.btnLamMoiPT_Click);
-            // 
-            // btnXoaPT
-            // 
+
             this.btnXoaPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnXoaPT.Location = new System.Drawing.Point(235, 585);
             this.btnXoaPT.Name = "btnXoaPT";
@@ -183,9 +173,7 @@
             this.btnXoaPT.Text = "Xóa PT";
             this.btnXoaPT.UseVisualStyleBackColor = true;
             this.btnXoaPT.Click += new System.EventHandler(this.btnXoaPT_Click);
-            // 
-            // btnSuaPT
-            // 
+
             this.btnSuaPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSuaPT.Location = new System.Drawing.Point(125, 585);
             this.btnSuaPT.Name = "btnSuaPT";
@@ -194,9 +182,7 @@
             this.btnSuaPT.Text = "Cập nhật PT";
             this.btnSuaPT.UseVisualStyleBackColor = true;
             this.btnSuaPT.Click += new System.EventHandler(this.btnSuaPT_Click);
-            // 
-            // btnThemPT
-            // 
+            
             this.btnThemPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnThemPT.Location = new System.Drawing.Point(15, 585);
             this.btnThemPT.Name = "btnThemPT";
@@ -205,18 +191,14 @@
             this.btnThemPT.Text = "Thêm PT";
             this.btnThemPT.UseVisualStyleBackColor = true;
             this.btnThemPT.Click += new System.EventHandler(this.btnThemPT_Click);
-            // 
-            // nudTonKhoPT
-            // 
+
             this.nudTonKhoPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.nudTonKhoPT.Location = new System.Drawing.Point(125, 535);
             this.nudTonKhoPT.Maximum = new decimal(new int[] { 100000, 0, 0, 0 });
             this.nudTonKhoPT.Name = "nudTonKhoPT";
             this.nudTonKhoPT.Size = new System.Drawing.Size(160, 23);
             this.nudTonKhoPT.TabIndex = 6;
-            // 
-            // lblTonKhoPT
-            // 
+
             this.lblTonKhoPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTonKhoPT.AutoSize = true;
             this.lblTonKhoPT.Location = new System.Drawing.Point(15, 538);
@@ -224,17 +206,13 @@
             this.lblTonKhoPT.Size = new System.Drawing.Size(81, 15);
             this.lblTonKhoPT.TabIndex = 5;
             this.lblTonKhoPT.Text = "Số lượng tồn:";
-            // 
-            // txtDonGiaPT
-            // 
+
             this.txtDonGiaPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtDonGiaPT.Location = new System.Drawing.Point(125, 495);
             this.txtDonGiaPT.Name = "txtDonGiaPT";
             this.txtDonGiaPT.Size = new System.Drawing.Size(220, 23);
             this.txtDonGiaPT.TabIndex = 4;
-            // 
-            // lblDonGiaPT
-            // 
+
             this.lblDonGiaPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblDonGiaPT.AutoSize = true;
             this.lblDonGiaPT.Location = new System.Drawing.Point(15, 498);
@@ -242,18 +220,14 @@
             this.lblDonGiaPT.Size = new System.Drawing.Size(83, 15);
             this.lblDonGiaPT.TabIndex = 3;
             this.lblDonGiaPT.Text = "Đơn giá (VNĐ):";
-            // 
-            // txtTenPT
-            // 
+
             this.txtTenPT.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTenPT.Location = new System.Drawing.Point(125, 455);
             this.txtTenPT.Name = "txtTenPT";
             this.txtTenPT.Size = new System.Drawing.Size(433, 23);
             this.txtTenPT.TabIndex = 2;
-            // 
-            // lblTenPT
-            // 
+
             this.lblTenPT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTenPT.AutoSize = true;
             this.lblTenPT.Location = new System.Drawing.Point(15, 458);
@@ -261,9 +235,7 @@
             this.lblTenPT.Size = new System.Drawing.Size(81, 15);
             this.lblTenPT.TabIndex = 1;
             this.lblTenPT.Text = "Tên phụ tùng:";
-            // 
-            // dgvPhuTung
-            // 
+
             this.dgvPhuTung.AllowUserToAddRows = false;
             this.dgvPhuTung.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -278,9 +250,7 @@
             this.dgvPhuTung.Size = new System.Drawing.Size(543, 415);
             this.dgvPhuTung.TabIndex = 0;
             this.dgvPhuTung.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhuTung_CellClick);
-            // 
-            // grpTiepNhan
-            // 
+
             this.grpTiepNhan.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.grpTiepNhan.Controls.Add(this.dgvXe);
@@ -307,9 +277,7 @@
             this.grpTiepNhan.TabIndex = 0;
             this.grpTiepNhan.TabStop = false;
             this.grpTiepNhan.Text = "Tra cứu & Tiếp nhận Xe / Chủ xe";
-            // 
-            // dgvXe
-            // 
+
             this.dgvXe.AllowUserToAddRows = false;
             this.dgvXe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -324,9 +292,7 @@
             this.dgvXe.Size = new System.Drawing.Size(515, 305);
             this.dgvXe.TabIndex = 17;
             this.dgvXe.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvXe_CellClick);
-            // 
-            // btnLamMoiXe
-            // 
+
             this.btnLamMoiXe.Location = new System.Drawing.Point(345, 275);
             this.btnLamMoiXe.Name = "btnLamMoiXe";
             this.btnLamMoiXe.Size = new System.Drawing.Size(185, 35);
@@ -334,9 +300,7 @@
             this.btnLamMoiXe.Text = "Làm mới Form";
             this.btnLamMoiXe.UseVisualStyleBackColor = true;
             this.btnLamMoiXe.Click += new System.EventHandler(this.btnLamMoiXe_Click);
-            // 
-            // btnLuuTiepNhan
-            // 
+
             this.btnLuuTiepNhan.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnLuuTiepNhan.Location = new System.Drawing.Point(115, 275);
             this.btnLuuTiepNhan.Name = "btnLuuTiepNhan";
@@ -345,57 +309,43 @@
             this.btnLuuTiepNhan.Text = "Lưu Thông Tin Xe && Chủ Xe";
             this.btnLuuTiepNhan.UseVisualStyleBackColor = false;
             this.btnLuuTiepNhan.Click += new System.EventHandler(this.btnLuuTiepNhan_Click);
-            // 
-            // txtDiaChiKH
-            // 
+
             this.txtDiaChiKH.Location = new System.Drawing.Point(115, 235);
             this.txtDiaChiKH.Name = "txtDiaChiKH";
             this.txtDiaChiKH.Size = new System.Drawing.Size(415, 23);
             this.txtDiaChiKH.TabIndex = 14;
-            // 
-            // lblDiaChiKH
-            // 
+
             this.lblDiaChiKH.AutoSize = true;
             this.lblDiaChiKH.Location = new System.Drawing.Point(15, 238);
             this.lblDiaChiKH.Name = "lblDiaChiKH";
             this.lblDiaChiKH.Size = new System.Drawing.Size(47, 15);
             this.lblDiaChiKH.TabIndex = 13;
             this.lblDiaChiKH.Text = "Địa chỉ:";
-            // 
-            // txtDienThoaiKH
-            // 
+
             this.txtDienThoaiKH.Location = new System.Drawing.Point(115, 195);
             this.txtDienThoaiKH.Name = "txtDienThoaiKH";
             this.txtDienThoaiKH.Size = new System.Drawing.Size(415, 23);
             this.txtDienThoaiKH.TabIndex = 12;
-            // 
-            // lblDienThoaiKH
-            // 
+
             this.lblDienThoaiKH.AutoSize = true;
             this.lblDienThoaiKH.Location = new System.Drawing.Point(15, 198);
             this.lblDienThoaiKH.Name = "lblDienThoaiKH";
             this.lblDienThoaiKH.Size = new System.Drawing.Size(66, 15);
             this.lblDienThoaiKH.TabIndex = 11;
             this.lblDienThoaiKH.Text = "Điện thoại:";
-            // 
-            // txtTenKH
-            // 
+
             this.txtTenKH.Location = new System.Drawing.Point(115, 155);
             this.txtTenKH.Name = "txtTenKH";
             this.txtTenKH.Size = new System.Drawing.Size(415, 23);
             this.txtTenKH.TabIndex = 10;
-            // 
-            // lblTenKH
-            // 
+
             this.lblTenKH.AutoSize = true;
             this.lblTenKH.Location = new System.Drawing.Point(15, 158);
             this.lblTenKH.Name = "lblTenKH";
             this.lblTenKH.Size = new System.Drawing.Size(66, 15);
             this.lblTenKH.TabIndex = 9;
             this.lblTenKH.Text = "Tên chủ xe:";
-            // 
-            // nudNamSX
-            // 
+
             this.nudNamSX.Location = new System.Drawing.Point(410, 115);
             this.nudNamSX.Maximum = new decimal(new int[] { 2030, 0, 0, 0 });
             this.nudNamSX.Minimum = new decimal(new int[] { 1980, 0, 0, 0 });
@@ -403,50 +353,38 @@
             this.nudNamSX.Size = new System.Drawing.Size(120, 23);
             this.nudNamSX.TabIndex = 8;
             this.nudNamSX.Value = new decimal(new int[] { 2022, 0, 0, 0 });
-            // 
-            // lblNamSX
-            // 
+
             this.lblNamSX.AutoSize = true;
             this.lblNamSX.Location = new System.Drawing.Point(345, 118);
             this.lblNamSX.Name = "lblNamSX";
             this.lblNamSX.Size = new System.Drawing.Size(55, 15);
             this.lblNamSX.TabIndex = 7;
             this.lblNamSX.Text = "Năm SX:";
-            // 
-            // txtHieuXe
-            // 
+
             this.txtHieuXe.Location = new System.Drawing.Point(115, 115);
             this.txtHieuXe.Name = "txtHieuXe";
             this.txtHieuXe.Size = new System.Drawing.Size(215, 23);
             this.txtHieuXe.TabIndex = 6;
-            // 
-            // lblHieuXe
-            // 
+
             this.lblHieuXe.AutoSize = true;
             this.lblHieuXe.Location = new System.Drawing.Point(15, 118);
             this.lblHieuXe.Name = "lblHieuXe";
             this.lblHieuXe.Size = new System.Drawing.Size(50, 15);
             this.lblHieuXe.TabIndex = 5;
             this.lblHieuXe.Text = "Hiệu xe:";
-            // 
-            // txtBienSo
-            // 
+
             this.txtBienSo.Location = new System.Drawing.Point(115, 75);
             this.txtBienSo.Name = "txtBienSo";
             this.txtBienSo.Size = new System.Drawing.Size(415, 23);
             this.txtBienSo.TabIndex = 4;
-            // 
-            // lblBienSo
-            // 
+
             this.lblBienSo.AutoSize = true;
             this.lblBienSo.Location = new System.Drawing.Point(15, 78);
             this.lblBienSo.Name = "lblBienSo";
             this.lblBienSo.Size = new System.Drawing.Size(65, 15);
             this.lblBienSo.TabIndex = 3;
             this.lblBienSo.Text = "Biển số xe:";
-            // 
-            // btnTraCuuXe
-            // 
+
             this.btnTraCuuXe.BackColor = System.Drawing.Color.PaleGreen;
             this.btnTraCuuXe.Location = new System.Drawing.Point(365, 26);
             this.btnTraCuuXe.Name = "btnTraCuuXe";
@@ -455,16 +393,12 @@
             this.btnTraCuuXe.Text = "Tra cứu Biển số";
             this.btnTraCuuXe.UseVisualStyleBackColor = false;
             this.btnTraCuuXe.Click += new System.EventHandler(this.btnTraCuuXe_Click);
-            // 
-            // txtTraCuuBienSo
-            // 
+
             this.txtTraCuuBienSo.Location = new System.Drawing.Point(115, 28);
             this.txtTraCuuBienSo.Name = "txtTraCuuBienSo";
             this.txtTraCuuBienSo.Size = new System.Drawing.Size(240, 23);
             this.txtTraCuuBienSo.TabIndex = 1;
-            // 
-            // lblTraCuu
-            // 
+
             this.lblTraCuu.AutoSize = true;
             this.lblTraCuu.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
             this.lblTraCuu.Location = new System.Drawing.Point(15, 31);
@@ -472,9 +406,7 @@
             this.lblTraCuu.Size = new System.Drawing.Size(92, 15);
             this.lblTraCuu.TabIndex = 0;
             this.lblTraCuu.Text = "Tìm biển số xe:";
-            // 
-            // tabLapPhieu
-            // 
+
             this.tabLapPhieu.Controls.Add(this.grpGioPhuTung);
             this.tabLapPhieu.Controls.Add(this.grpThongTinPhieu);
             this.tabLapPhieu.Location = new System.Drawing.Point(4, 24);
@@ -484,9 +416,7 @@
             this.tabLapPhieu.TabIndex = 1;
             this.tabLapPhieu.Text = "2. Lập Phiếu Sửa Chữa (SqlTransaction)";
             this.tabLapPhieu.UseVisualStyleBackColor = true;
-            // 
-            // grpGioPhuTung
-            // 
+
             this.grpGioPhuTung.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -507,9 +437,7 @@
             this.grpGioPhuTung.TabIndex = 1;
             this.grpGioPhuTung.TabStop = false;
             this.grpGioPhuTung.Text = "Danh sách Phụ tùng thay thế & Tiền công";
-            // 
-            // btnXacNhanLapPhieu
-            // 
+
             this.btnXacNhanLapPhieu.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnXacNhanLapPhieu.BackColor = System.Drawing.Color.PaleGreen;
             this.btnXacNhanLapPhieu.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
@@ -520,9 +448,7 @@
             this.btnXacNhanLapPhieu.Text = "Xác Nhận Lập Phiếu && Trừ Kho (Transaction)";
             this.btnXacNhanLapPhieu.UseVisualStyleBackColor = false;
             this.btnXacNhanLapPhieu.Click += new System.EventHandler(this.btnXacNhanLapPhieu_Click);
-            // 
-            // lblTongTamTinh
-            // 
+    
             this.lblTongTamTinh.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTongTamTinh.AutoSize = true;
             this.lblTongTamTinh.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold);
@@ -532,9 +458,7 @@
             this.lblTongTamTinh.Size = new System.Drawing.Size(218, 20);
             this.lblTongTamTinh.TabIndex = 9;
             this.lblTongTamTinh.Text = "Tổng tiền tạm tính: 0 VNĐ";
-            // 
-            // dgvChiTietTam
-            // 
+
             this.dgvChiTietTam.AllowUserToAddRows = false;
             this.dgvChiTietTam.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -548,9 +472,7 @@
             this.dgvChiTietTam.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvChiTietTam.Size = new System.Drawing.Size(1088, 365);
             this.dgvChiTietTam.TabIndex = 8;
-            // 
-            // btnXoaKhoiPhieu
-            // 
+
             this.btnXoaKhoiPhieu.Location = new System.Drawing.Point(975, 28);
             this.btnXoaKhoiPhieu.Name = "btnXoaKhoiPhieu";
             this.btnXoaKhoiPhieu.Size = new System.Drawing.Size(128, 28);
@@ -558,9 +480,7 @@
             this.btnXoaKhoiPhieu.Text = "Xóa dòng chọn";
             this.btnXoaKhoiPhieu.UseVisualStyleBackColor = true;
             this.btnXoaKhoiPhieu.Click += new System.EventHandler(this.btnXoaKhoiPhieu_Click);
-            // 
-            // btnThemVaoPhieu
-            // 
+
             this.btnThemVaoPhieu.BackColor = System.Drawing.Color.LightSteelBlue;
             this.btnThemVaoPhieu.Location = new System.Drawing.Point(820, 28);
             this.btnThemVaoPhieu.Name = "btnThemVaoPhieu";
@@ -569,26 +489,20 @@
             this.btnThemVaoPhieu.Text = "+ Thêm vào Phiếu";
             this.btnThemVaoPhieu.UseVisualStyleBackColor = false;
             this.btnThemVaoPhieu.Click += new System.EventHandler(this.btnThemVaoPhieu_Click);
-            // 
-            // txtTienCong
-            // 
+
             this.txtTienCong.Location = new System.Drawing.Point(685, 30);
             this.txtTienCong.Name = "txtTienCong";
             this.txtTienCong.Size = new System.Drawing.Size(120, 23);
             this.txtTienCong.TabIndex = 5;
             this.txtTienCong.Text = "100000";
-            // 
-            // lblTienCong
-            // 
+
             this.lblTienCong.AutoSize = true;
             this.lblTienCong.Location = new System.Drawing.Point(615, 33);
             this.lblTienCong.Name = "lblTienCong";
             this.lblTienCong.Size = new System.Drawing.Size(64, 15);
             this.lblTienCong.TabIndex = 4;
             this.lblTienCong.Text = "Tiền công:";
-            // 
-            // nudSoLuongThay
-            // 
+
             this.nudSoLuongThay.Location = new System.Drawing.Point(530, 30);
             this.nudSoLuongThay.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
             this.nudSoLuongThay.Minimum = new decimal(new int[] { 1, 0, 0, 0 });
@@ -605,27 +519,21 @@
             this.lblSoLuongThay.Size = new System.Drawing.Size(59, 15);
             this.lblSoLuongThay.TabIndex = 2;
             this.lblSoLuongThay.Text = "Số lượng:";
-            // 
-            // cboPhuTung
-            // 
+
             this.cboPhuTung.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboPhuTung.FormattingEnabled = true;
             this.cboPhuTung.Location = new System.Drawing.Point(105, 30);
             this.cboPhuTung.Name = "cboPhuTung";
             this.cboPhuTung.Size = new System.Drawing.Size(345, 23);
             this.cboPhuTung.TabIndex = 1;
-            // 
-            // lblChonPT
-            // 
+
             this.lblChonPT.AutoSize = true;
             this.lblChonPT.Location = new System.Drawing.Point(15, 33);
             this.lblChonPT.Name = "lblChonPT";
             this.lblChonPT.Size = new System.Drawing.Size(83, 15);
             this.lblChonPT.TabIndex = 0;
             this.lblChonPT.Text = "Chọn phụ tùng:";
-            // 
-            // grpThongTinPhieu
-            // 
+
             this.grpThongTinPhieu.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.grpThongTinPhieu.Controls.Add(this.txtNoiDungSua);
@@ -638,9 +546,7 @@
             this.grpThongTinPhieu.TabIndex = 0;
             this.grpThongTinPhieu.TabStop = false;
             this.grpThongTinPhieu.Text = "Thông tin Phiếu Sửa Chữa";
-            // 
-            // txtNoiDungSua
-            // 
+
             this.txtNoiDungSua.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtNoiDungSua.Location = new System.Drawing.Point(130, 62);
@@ -648,36 +554,28 @@
             this.txtNoiDungSua.Name = "txtNoiDungSua";
             this.txtNoiDungSua.Size = new System.Drawing.Size(973, 45);
             this.txtNoiDungSua.TabIndex = 3;
-            // 
-            // lblNoiDungSua
-            // 
+
             this.lblNoiDungSua.AutoSize = true;
             this.lblNoiDungSua.Location = new System.Drawing.Point(15, 65);
             this.lblNoiDungSua.Name = "lblNoiDungSua";
             this.lblNoiDungSua.Size = new System.Drawing.Size(107, 15);
             this.lblNoiDungSua.TabIndex = 2;
             this.lblNoiDungSua.Text = "Nội dung sửa chữa:";
-            // 
-            // cboBienSoPhieu
-            // 
+
             this.cboBienSoPhieu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBienSoPhieu.FormattingEnabled = true;
             this.cboBienSoPhieu.Location = new System.Drawing.Point(130, 26);
             this.cboBienSoPhieu.Name = "cboBienSoPhieu";
             this.cboBienSoPhieu.Size = new System.Drawing.Size(420, 23);
             this.cboBienSoPhieu.TabIndex = 1;
-            // 
-            // lblChonXePhieu
-            // 
+
             this.lblChonXePhieu.AutoSize = true;
             this.lblChonXePhieu.Location = new System.Drawing.Point(15, 29);
             this.lblChonXePhieu.Name = "lblChonXePhieu";
             this.lblChonXePhieu.Size = new System.Drawing.Size(92, 15);
             this.lblChonXePhieu.TabIndex = 0;
             this.lblChonXePhieu.Text = "Chọn xe tiếp nhận:";
-            // 
-            // tabThanhToan
-            // 
+
             this.tabThanhToan.Controls.Add(this.tlpThanhToan);
             this.tabThanhToan.Location = new System.Drawing.Point(4, 24);
             this.tabThanhToan.Name = "tabThanhToan";
@@ -686,9 +584,7 @@
             this.tabThanhToan.TabIndex = 2;
             this.tabThanhToan.Text = "3. Thanh toán & Xuất Hóa đơn Dịch vụ";
             this.tabThanhToan.UseVisualStyleBackColor = true;
-            // 
-            // tlpThanhToan
-            // 
+
             this.tlpThanhToan.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -703,9 +599,7 @@
             this.tlpThanhToan.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpThanhToan.Size = new System.Drawing.Size(1124, 644);
             this.tlpThanhToan.TabIndex = 0;
-            // 
-            // grpHoaDon
-            // 
+
             this.grpHoaDon.Controls.Add(this.btnThanhToan);
             this.grpHoaDon.Controls.Add(this.btnHoanThanhSua);
             this.grpHoaDon.Controls.Add(this.txtHoaDonPreview);
@@ -719,9 +613,7 @@
             this.grpHoaDon.TabIndex = 1;
             this.grpHoaDon.TabStop = false;
             this.grpHoaDon.Text = "Chi tiết Phụ tùng && Xuất Hóa Đơn";
-            // 
-            // btnThanhToan
-            // 
+
             this.btnThanhToan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnThanhToan.BackColor = System.Drawing.Color.PaleGreen;
             this.btnThanhToan.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold);
@@ -732,9 +624,7 @@
             this.btnThanhToan.Text = "Thanh Toán && Xuất Hóa Đơn";
             this.btnThanhToan.UseVisualStyleBackColor = false;
             this.btnThanhToan.Click += new System.EventHandler(this.btnThanhToan_Click);
-            // 
-            // btnHoanThanhSua
-            // 
+
             this.btnHoanThanhSua.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnHoanThanhSua.Location = new System.Drawing.Point(15, 578);
             this.btnHoanThanhSua.Name = "btnHoanThanhSua";
@@ -743,9 +633,7 @@
             this.btnHoanThanhSua.Text = "Đánh dấu Đã Hoàn Thành Sửa";
             this.btnHoanThanhSua.UseVisualStyleBackColor = true;
             this.btnHoanThanhSua.Click += new System.EventHandler(this.btnHoanThanhSua_Click);
-            // 
-            // txtHoaDonPreview
-            // 
+
             this.txtHoaDonPreview.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtHoaDonPreview.BackColor = System.Drawing.Color.Ivory;
@@ -757,9 +645,7 @@
             this.txtHoaDonPreview.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.txtHoaDonPreview.Size = new System.Drawing.Size(466, 275);
             this.txtHoaDonPreview.TabIndex = 2;
-            // 
-            // lblPreviewHD
-            // 
+  
             this.lblPreviewHD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblPreviewHD.AutoSize = true;
             this.lblPreviewHD.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
@@ -768,9 +654,7 @@
             this.lblPreviewHD.Size = new System.Drawing.Size(147, 15);
             this.lblPreviewHD.TabIndex = 1;
             this.lblPreviewHD.Text = "Bản xem trước Hóa đơn:";
-            // 
-            // dgvChiTietPhieu
-            // 
+
             this.dgvChiTietPhieu.AllowUserToAddRows = false;
             this.dgvChiTietPhieu.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -782,9 +666,7 @@
             this.dgvChiTietPhieu.ReadOnly = true;
             this.dgvChiTietPhieu.Size = new System.Drawing.Size(466, 235);
             this.dgvChiTietPhieu.TabIndex = 0;
-            // 
-            // grpDanhSachPhieu
-            // 
+
             this.grpDanhSachPhieu.Controls.Add(this.dgvPhieuSuaChua);
             this.grpDanhSachPhieu.Controls.Add(this.btnLocPhieu);
             this.grpDanhSachPhieu.Controls.Add(this.cboLocTrangThaiPhieu);
@@ -797,9 +679,7 @@
             this.grpDanhSachPhieu.TabIndex = 0;
             this.grpDanhSachPhieu.TabStop = false;
             this.grpDanhSachPhieu.Text = "Danh sách Phiếu Sửa Chữa";
-            // 
-            // dgvPhieuSuaChua
-            // 
+
             this.dgvPhieuSuaChua.AllowUserToAddRows = false;
             this.dgvPhieuSuaChua.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -814,9 +694,7 @@
             this.dgvPhieuSuaChua.Size = new System.Drawing.Size(578, 558);
             this.dgvPhieuSuaChua.TabIndex = 3;
             this.dgvPhieuSuaChua.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuSuaChua_CellClick);
-            // 
-            // btnLocPhieu
-            // 
+
             this.btnLocPhieu.Location = new System.Drawing.Point(345, 24);
             this.btnLocPhieu.Name = "btnLocPhieu";
             this.btnLocPhieu.Size = new System.Drawing.Size(120, 27);
@@ -824,9 +702,7 @@
             this.btnLocPhieu.Text = "Lọc Phiếu";
             this.btnLocPhieu.UseVisualStyleBackColor = true;
             this.btnLocPhieu.Click += new System.EventHandler(this.btnLocPhieu_Click);
-            // 
-            // cboLocTrangThaiPhieu
-            // 
+
             this.cboLocTrangThaiPhieu.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLocTrangThaiPhieu.FormattingEnabled = true;
             this.cboLocTrangThaiPhieu.Items.AddRange(new object[] { "Tất cả", "Đang sửa", "Đã hoàn thành", "Đã thanh toán" });
@@ -834,18 +710,14 @@
             this.cboLocTrangThaiPhieu.Name = "cboLocTrangThaiPhieu";
             this.cboLocTrangThaiPhieu.Size = new System.Drawing.Size(200, 23);
             this.cboLocTrangThaiPhieu.TabIndex = 1;
-            // 
-            // lblLocPhieu
-            // 
+
             this.lblLocPhieu.AutoSize = true;
             this.lblLocPhieu.Location = new System.Drawing.Point(15, 29);
             this.lblLocPhieu.Name = "lblLocPhieu";
             this.lblLocPhieu.Size = new System.Drawing.Size(102, 15);
             this.lblLocPhieu.TabIndex = 0;
             this.lblLocPhieu.Text = "Trạng thái phiếu:";
-            // 
-            // frmMain
-            // 
+
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1180, 720);
