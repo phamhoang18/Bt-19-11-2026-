@@ -51,7 +51,6 @@ namespace ProjectTaskManagement.GUI
             if (dgvDuAn.Columns["NgayKetThuc"] != null) dgvDuAn.Columns["NgayKetThuc"].HeaderText = "Kết Thúc";
             if (dgvDuAn.Columns["TrangThai"] != null) dgvDuAn.Columns["TrangThai"].HeaderText = "Trạng Thái";
 
-            // Cập nhật các ComboBox chọn Dự án ở 3 tab
             BindProjectComboBox(cboLocDuAn, listDuAn);
             BindProjectComboBox(cboKanbanDuAn, listDuAn);
             BindProjectComboBox(cboThongKeDuAn, listDuAn);
@@ -77,7 +76,6 @@ namespace ProjectTaskManagement.GUI
             dtpNgayKT.Value = row.NgayKetThuc;
             cboTrangThaiDA.SelectedItem = row.TrangThai;
 
-            // Đồng bộ lọc task theo dự án vừa chọn
             cboLocDuAn.SelectedValue = _selectedMaDuAn;
             LoadTasks();
         }
@@ -210,7 +208,6 @@ namespace ProjectTaskManagement.GUI
             cboDoUuTien.SelectedItem = task.DoUuTien;
             cboTrangThaiTask.SelectedItem = task.TrangThai;
 
-            // Tick các thành viên đã được phân công cho Task này
             var assignedIds = _pcBus.GetAssignedMemberIds(_selectedMaTask);
             for (int i = 0; i < clbThanhVien.Items.Count; i++)
             {
@@ -463,7 +460,6 @@ namespace ProjectTaskManagement.GUI
             if (dgvOverdue.Columns["DoUuTien"] != null) dgvOverdue.Columns["DoUuTien"].HeaderText = "Độ Ưu Tiên";
             if (dgvOverdue.Columns["TrangThai"] != null) dgvOverdue.Columns["TrangThai"].HeaderText = "Trạng Thái Hiện Tại";
 
-            // Tô đỏ nhẹ các dòng trễ hạn để cảnh báo trực quan
             foreach (DataGridViewRow row in dgvOverdue.Rows)
             {
                 row.DefaultCellStyle.BackColor = Color.MistyRose;
@@ -481,11 +477,9 @@ namespace ProjectTaskManagement.GUI
         {
             if (!(cboThongKeDuAn.SelectedValue is int maDuAn)) return;
 
-            // 1. Lấy tỷ lệ % hoàn thành chung của dự án bằng ExecuteScalar
             decimal tyLeChung = _pcBus.GetTyLeHoanThanhDuAn(maDuAn);
             lblTongTienDoDA.Text = $"Tiến độ hoàn thành chung của dự án: {tyLeChung}%";
 
-            // 2. Lấy bảng thống kê chi tiết từng thành viên bằng GROUP BY
             var stats = _pcBus.GetThongKeThanhVien(maDuAn);
             dgvThongKe.DataSource = stats;
 
