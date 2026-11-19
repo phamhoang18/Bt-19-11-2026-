@@ -7,7 +7,6 @@ namespace ProjectTaskManagement.DAL
 {
     public class CongViecDAL
     {
-        // Lọc danh sách Task theo Dự án và Trạng thái
         public List<CongViecDTO> GetTasks(int? maDuAn, string trangThai)
         {
             var list = new List<CongViecDTO>();
@@ -56,7 +55,6 @@ namespace ProjectTaskManagement.DAL
             return list;
         }
 
-        // Thêm Task và trả về MaTask vừa tạo (để phân công ngay nếu có)
         public int InsertAndGetId(CongViecDTO cv)
         {
             string sql = @"INSERT INTO CongViec (MaDuAn, TenTask, MoTa, HanNop, DoUuTien, TrangThai)
@@ -109,7 +107,6 @@ namespace ProjectTaskManagement.DAL
             }
         }
 
-        // Chuyển trạng thái công việc bằng Parameterized SQL Update
         public bool UpdateTrangThai(int maTask, string trangThaiMoi)
         {
             string sql = "UPDATE CongViec SET TrangThai = @TrangThai WHERE MaTask = @MaTask";
@@ -123,7 +120,6 @@ namespace ProjectTaskManagement.DAL
             }
         }
 
-        // Dùng SqlDataReader hiển thị các công việc đã quá HanNop mà TrangThai != 'Done'
         public List<CongViecDTO> GetOverdueTasks()
         {
             var list = new List<CongViecDTO>();
