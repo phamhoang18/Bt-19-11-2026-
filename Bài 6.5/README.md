@@ -4,7 +4,7 @@
 - **Họ và tên:** Phạm Huy Hoàng
 - **Mã số sinh viên:** 24810340415
 - **Lớp:** D19CNPM3
-- Bài 6.1: HỆ THỐNG QUẢN LÝ BÁN HÀNG & SIÊU THỊ MINI (RETAIL SALES SYSTEM)
+- BÀI 6.5: HỆ THỐNG QUẢN LÝ ĐẶT PHÒNG & DỊCH VỤ KARAOKE (KARAOKE MANAGEMENT SYSTEM)
 
 ---
 
