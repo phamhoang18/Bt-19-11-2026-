@@ -17,7 +17,7 @@
 ### 2. Màn hình Quản lý Danh mục (CRUD - Thêm/Sửa/Xóa):
 ![Màn hình CRUD](screenshots/Bài_6.4_add_PT.png)
 ![Màn hình CRUD](screenshots/Bài_6.4_update_pt.png)
-![Màn hình CRUD](screenshots/Bài_6.4_delete_pt.png)
+![Màn hình CRUD](screenshots/Bài-6.4_delete_pt.png)
 ![Màn hình CRUD](screenshots/Bài_6.4_search.png)
 
 ### 3. Màn hình Thực thi Nghiệp vụ chính (Lập Hóa đơn / Bán hàng / Chấm công / Đặt phòng):
