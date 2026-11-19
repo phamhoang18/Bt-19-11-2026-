@@ -8,7 +8,6 @@ namespace GarageManagement.DAL
 {
     public class PhieuSuaChuaDAL
     {
-        // Lập phiếu sửa chữa, thêm chi tiết và trừ kho trong 1 SqlTransaction
         public bool LapPhieuSuaChua(PhieuSuaChuaDTO phieu, List<ChiTietSuaChuaDTO> chiTiets, out string message)
         {
             decimal tongTien = chiTiets.Sum(x => (x.SoLuong * x.DonGia) + x.TienCong);
@@ -19,7 +18,6 @@ namespace GarageManagement.DAL
                 SqlTransaction trans = conn.BeginTransaction();
                 try
                 {
-                    // 1. Tạo bản ghi PhieuSuaChua
                     string sqlPhieu = @"
                         INSERT INTO PhieuSuaChua (BienSo, NgayNhan, NoiDungSua, TongTien, TrangThai)
                         OUTPUT INSERTED.MaPhieu
@@ -34,7 +32,6 @@ namespace GarageManagement.DAL
                         maPhieuMoi = (int)cmdPhieu.ExecuteScalar();
                     }
 
-                    // 2 & 3. Trừ tồn kho PhuTung và tạo ChiTietSuaChua
                     foreach (var ct in chiTiets)
                     {
                         string sqlTruKho = @"
@@ -48,7 +45,6 @@ namespace GarageManagement.DAL
                             cmdKho.Parameters.AddWithValue("@MaPT", ct.MaPhuTung);
                             int rows = cmdKho.ExecuteNonQuery();
 
-                            // 4. Nếu không đủ số lượng trong kho -> Rollback và báo lỗi
                             if (rows == 0)
                             {
                                 trans.Rollback();
