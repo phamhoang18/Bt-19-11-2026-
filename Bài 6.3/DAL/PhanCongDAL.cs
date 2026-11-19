@@ -7,7 +7,6 @@ namespace ProjectTaskManagement.DAL
 {
     public class PhanCongDAL
     {
-        // Lấy danh sách MaThanhVien đã được phân công cho 1 Task
         public List<int> GetAssignedMemberIds(int maTask)
         {
             var ids = new List<int>();
@@ -28,7 +27,6 @@ namespace ProjectTaskManagement.DAL
             return ids;
         }
 
-        // Giao việc cho một hoặc nhiều thành viên (cập nhật lại danh sách phân công của Task)
         public bool AssignMembersToTask(int maTask, List<int> memberIds)
         {
             using (SqlConnection conn = DBConnection.GetConnection())
@@ -66,7 +64,6 @@ namespace ProjectTaskManagement.DAL
             }
         }
 
-        // Thống kê tỷ lệ % hoàn thành của từng thành viên trong dự án bằng GROUP BY
         public List<ThongKeThanhVienDTO> GetThongKeThanhVienTheoDuAn(int maDuAn)
         {
             var list = new List<ThongKeThanhVienDTO>();
@@ -107,7 +104,6 @@ namespace ProjectTaskManagement.DAL
             return list;
         }
 
-        // Dùng ExecuteScalar tính tổng % hoàn thành chung của toàn dự án
         public decimal GetTyLeHoanThanhChungDuAn(int maDuAn)
         {
             string sql = @"
