@@ -114,9 +114,7 @@
             this.grpOverdue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvOverdue)).BeginInit();
             this.SuspendLayout();
-            // 
-            // tabControlMain
-            // 
+
             this.tabControlMain.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -128,9 +126,7 @@
             this.tabControlMain.SelectedIndex = 0;
             this.tabControlMain.Size = new System.Drawing.Size(1156, 696);
             this.tabControlMain.TabIndex = 0;
-            // 
-            // tabQuanLy
-            // 
+
             this.tabQuanLy.Controls.Add(this.grpCongViec);
             this.tabQuanLy.Controls.Add(this.grpDuAn);
             this.tabQuanLy.Location = new System.Drawing.Point(4, 24);
@@ -140,9 +136,7 @@
             this.tabQuanLy.TabIndex = 0;
             this.tabQuanLy.Text = "1. Quản lý Dự án & Công việc (List View)";
             this.tabQuanLy.UseVisualStyleBackColor = true;
-            // 
-            // grpCongViec
-            // 
+
             this.grpCongViec.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -187,9 +181,7 @@
             this.btnLuuPhanCong.Text = "Lưu Phân Công Cho Task";
             this.btnLuuPhanCong.UseVisualStyleBackColor = false;
             this.btnLuuPhanCong.Click += new System.EventHandler(this.btnLuuPhanCong_Click);
-            // 
-            // btnXoaTask
-            // 
+
             this.btnXoaTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnXoaTask.Location = new System.Drawing.Point(252, 585);
             this.btnXoaTask.Name = "btnXoaTask";
@@ -198,9 +190,7 @@
             this.btnXoaTask.Text = "Xóa Task";
             this.btnXoaTask.UseVisualStyleBackColor = true;
             this.btnXoaTask.Click += new System.EventHandler(this.btnXoaTask_Click);
-            // 
-            // btnSuaTask
-            // 
+
             this.btnSuaTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSuaTask.Location = new System.Drawing.Point(132, 585);
             this.btnSuaTask.Name = "btnSuaTask";
@@ -209,9 +199,7 @@
             this.btnSuaTask.Text = "Cập nhật Task";
             this.btnSuaTask.UseVisualStyleBackColor = true;
             this.btnSuaTask.Click += new System.EventHandler(this.btnSuaTask_Click);
-            // 
-            // btnThemTask
-            // 
+ 
             this.btnThemTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnThemTask.Location = new System.Drawing.Point(12, 585);
             this.btnThemTask.Name = "btnThemTask";
@@ -220,9 +208,7 @@
             this.btnThemTask.Text = "Thêm Task";
             this.btnThemTask.UseVisualStyleBackColor = true;
             this.btnThemTask.Click += new System.EventHandler(this.btnThemTask_Click);
-            // 
-            // clbThanhVien
-            // 
+
             this.clbThanhVien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.clbThanhVien.CheckOnClick = true;
             this.clbThanhVien.FormattingEnabled = true;
@@ -230,9 +216,7 @@
             this.clbThanhVien.Name = "clbThanhVien";
             this.clbThanhVien.Size = new System.Drawing.Size(236, 139);
             this.clbThanhVien.TabIndex = 18;
-            // 
-            // lblPhanCong
-            // 
+
             this.lblPhanCong.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPhanCong.AutoSize = true;
             this.lblPhanCong.Location = new System.Drawing.Point(450, 403);
@@ -240,9 +224,7 @@
             this.lblPhanCong.Size = new System.Drawing.Size(134, 15);
             this.lblPhanCong.TabIndex = 17;
             this.lblPhanCong.Text = "Phân công thành viên:";
-            // 
-            // btnChuyenTrangThai
-            // 
+ 
             this.btnChuyenTrangThai.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnChuyenTrangThai.BackColor = System.Drawing.Color.PaleGreen;
             this.btnChuyenTrangThai.Location = new System.Drawing.Point(265, 534);
@@ -252,9 +234,7 @@
             this.btnChuyenTrangThai.Text = "Chuyển trạng thái tiếp >>";
             this.btnChuyenTrangThai.UseVisualStyleBackColor = false;
             this.btnChuyenTrangThai.Click += new System.EventHandler(this.btnChuyenTrangThai_Click);
-            // 
-            // cboTrangThaiTask
-            // 
+
             this.cboTrangThaiTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cboTrangThaiTask.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTrangThaiTask.FormattingEnabled = true;
@@ -263,9 +243,7 @@
             this.cboTrangThaiTask.Name = "cboTrangThaiTask";
             this.cboTrangThaiTask.Size = new System.Drawing.Size(150, 23);
             this.cboTrangThaiTask.TabIndex = 15;
-            // 
-            // lblTrangThaiTask
-            // 
+
             this.lblTrangThaiTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTrangThaiTask.AutoSize = true;
             this.lblTrangThaiTask.Location = new System.Drawing.Point(12, 538);
@@ -273,9 +251,7 @@
             this.lblTrangThaiTask.Size = new System.Drawing.Size(65, 15);
             this.lblTrangThaiTask.TabIndex = 14;
             this.lblTrangThaiTask.Text = "Trạng thái:";
-            // 
-            // cboDoUuTien
-            // 
+
             this.cboDoUuTien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.cboDoUuTien.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDoUuTien.FormattingEnabled = true;
@@ -284,9 +260,7 @@
             this.cboDoUuTien.Name = "cboDoUuTien";
             this.cboDoUuTien.Size = new System.Drawing.Size(105, 23);
             this.cboDoUuTien.TabIndex = 13;
-            // 
-            // lblDoUuTien
-            // 
+
             this.lblDoUuTien.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lblDoUuTien.AutoSize = true;
             this.lblDoUuTien.Location = new System.Drawing.Point(265, 503);
@@ -294,18 +268,14 @@
             this.lblDoUuTien.Size = new System.Drawing.Size(57, 15);
             this.lblDoUuTien.TabIndex = 12;
             this.lblDoUuTien.Text = "Ưu tiên:";
-            // 
-            // dtpHanNop
-            // 
+
             this.dtpHanNop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.dtpHanNop.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpHanNop.Location = new System.Drawing.Point(105, 500);
             this.dtpHanNop.Name = "dtpHanNop";
             this.dtpHanNop.Size = new System.Drawing.Size(150, 23);
             this.dtpHanNop.TabIndex = 11;
-            // 
-            // lblHanNop
-            // 
+ 
             this.lblHanNop.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblHanNop.AutoSize = true;
             this.lblHanNop.Location = new System.Drawing.Point(12, 503);
@@ -313,9 +283,7 @@
             this.lblHanNop.Size = new System.Drawing.Size(59, 15);
             this.lblHanNop.TabIndex = 10;
             this.lblHanNop.Text = "Hạn nộp:";
-            // 
-            // txtMoTa
-            // 
+
             this.txtMoTa.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMoTa.Location = new System.Drawing.Point(105, 435);
@@ -323,9 +291,7 @@
             this.txtMoTa.Name = "txtMoTa";
             this.txtMoTa.Size = new System.Drawing.Size(330, 55);
             this.txtMoTa.TabIndex = 9;
-            // 
-            // lblMoTa
-            // 
+
             this.lblMoTa.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblMoTa.AutoSize = true;
             this.lblMoTa.Location = new System.Drawing.Point(12, 438);
@@ -333,18 +299,14 @@
             this.lblMoTa.Size = new System.Drawing.Size(42, 15);
             this.lblMoTa.TabIndex = 8;
             this.lblMoTa.Text = "Mô tả:";
-            // 
-            // txtTenTask
-            // 
+ 
             this.txtTenTask.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtTenTask.Location = new System.Drawing.Point(105, 400);
             this.txtTenTask.Name = "txtTenTask";
             this.txtTenTask.Size = new System.Drawing.Size(330, 23);
             this.txtTenTask.TabIndex = 7;
-            // 
-            // lblTenTask
-            // 
+
             this.lblTenTask.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTenTask.AutoSize = true;
             this.lblTenTask.Location = new System.Drawing.Point(12, 403);
@@ -352,9 +314,7 @@
             this.lblTenTask.Size = new System.Drawing.Size(59, 15);
             this.lblTenTask.TabIndex = 6;
             this.lblTenTask.Text = "Tên Task:";
-            // 
-            // dgvCongViec
-            // 
+
             this.dgvCongViec.AllowUserToAddRows = false;
             this.dgvCongViec.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -369,9 +329,7 @@
             this.dgvCongViec.Size = new System.Drawing.Size(674, 325);
             this.dgvCongViec.TabIndex = 5;
             this.dgvCongViec.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCongViec_CellClick);
-            // 
-            // btnLocTask
-            // 
+
             this.btnLocTask.Location = new System.Drawing.Point(560, 24);
             this.btnLocTask.Name = "btnLocTask";
             this.btnLocTask.Size = new System.Drawing.Size(126, 27);
@@ -379,9 +337,7 @@
             this.btnLocTask.Text = "Lọc Danh Sách";
             this.btnLocTask.UseVisualStyleBackColor = true;
             this.btnLocTask.Click += new System.EventHandler(this.btnLocTask_Click);
-            // 
-            // cboLocTrangThai
-            // 
+
             this.cboLocTrangThai.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLocTrangThai.FormattingEnabled = true;
             this.cboLocTrangThai.Items.AddRange(new object[] { "Tất cả", "To Do", "In Progress", "Review", "Done" });
@@ -389,36 +345,28 @@
             this.cboLocTrangThai.Name = "cboLocTrangThai";
             this.cboLocTrangThai.Size = new System.Drawing.Size(150, 23);
             this.cboLocTrangThai.TabIndex = 3;
-            // 
-            // lblLocTT
-            // 
+
             this.lblLocTT.AutoSize = true;
             this.lblLocTT.Location = new System.Drawing.Point(320, 28);
             this.lblLocTT.Name = "lblLocTT";
             this.lblLocTT.Size = new System.Drawing.Size(65, 15);
             this.lblLocTT.TabIndex = 2;
             this.lblLocTT.Text = "Trạng thái:";
-            // 
-            // cboLocDuAn
-            // 
+
             this.cboLocDuAn.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLocDuAn.FormattingEnabled = true;
             this.cboLocDuAn.Location = new System.Drawing.Point(85, 25);
             this.cboLocDuAn.Name = "cboLocDuAn";
             this.cboLocDuAn.Size = new System.Drawing.Size(220, 23);
             this.cboLocDuAn.TabIndex = 1;
-            // 
-            // lblLocDA
-            // 
+
             this.lblLocDA.AutoSize = true;
             this.lblLocDA.Location = new System.Drawing.Point(12, 28);
             this.lblLocDA.Name = "lblLocDA";
             this.lblLocDA.Size = new System.Drawing.Size(44, 15);
             this.lblLocDA.TabIndex = 0;
             this.lblLocDA.Text = "Dự án:";
-            // 
-            // grpDuAn
-            // 
+
             this.grpDuAn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)));
             this.grpDuAn.Controls.Add(this.btnLamMoiDA);
@@ -440,9 +388,7 @@
             this.grpDuAn.TabIndex = 0;
             this.grpDuAn.TabStop = false;
             this.grpDuAn.Text = "Quản lý Dự án";
-            // 
-            // btnLamMoiDA
-            // 
+
             this.btnLamMoiDA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnLamMoiDA.Location = new System.Drawing.Point(315, 585);
             this.btnLamMoiDA.Name = "btnLamMoiDA";
@@ -451,9 +397,7 @@
             this.btnLamMoiDA.Text = "Làm mới";
             this.btnLamMoiDA.UseVisualStyleBackColor = true;
             this.btnLamMoiDA.Click += new System.EventHandler(this.btnLamMoiDA_Click);
-            // 
-            // btnXoaDA
-            // 
+
             this.btnXoaDA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnXoaDA.Location = new System.Drawing.Point(214, 585);
             this.btnXoaDA.Name = "btnXoaDA";
@@ -462,9 +406,7 @@
             this.btnXoaDA.Text = "Xóa DA";
             this.btnXoaDA.UseVisualStyleBackColor = true;
             this.btnXoaDA.Click += new System.EventHandler(this.btnXoaDA_Click);
-            // 
-            // btnSuaDA
-            // 
+
             this.btnSuaDA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnSuaDA.Location = new System.Drawing.Point(113, 585);
             this.btnSuaDA.Name = "btnSuaDA";
@@ -473,9 +415,7 @@
             this.btnSuaDA.Text = "Sửa DA";
             this.btnSuaDA.UseVisualStyleBackColor = true;
             this.btnSuaDA.Click += new System.EventHandler(this.btnSuaDA_Click);
-            // 
-            // btnThemDA
-            // 
+
             this.btnThemDA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnThemDA.Location = new System.Drawing.Point(12, 585);
             this.btnThemDA.Name = "btnThemDA";
@@ -484,9 +424,7 @@
             this.btnThemDA.Text = "Thêm DA";
             this.btnThemDA.UseVisualStyleBackColor = true;
             this.btnThemDA.Click += new System.EventHandler(this.btnThemDA_Click);
-            // 
-            // cboTrangThaiDA
-            // 
+
             this.cboTrangThaiDA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.cboTrangThaiDA.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTrangThaiDA.FormattingEnabled = true;
@@ -495,9 +433,7 @@
             this.cboTrangThaiDA.Name = "cboTrangThaiDA";
             this.cboTrangThaiDA.Size = new System.Drawing.Size(293, 23);
             this.cboTrangThaiDA.TabIndex = 8;
-            // 
-            // lblTrangThaiDA
-            // 
+
             this.lblTrangThaiDA.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTrangThaiDA.AutoSize = true;
             this.lblTrangThaiDA.Location = new System.Drawing.Point(12, 535);
@@ -505,18 +441,14 @@
             this.lblTrangThaiDA.Size = new System.Drawing.Size(65, 15);
             this.lblTrangThaiDA.TabIndex = 7;
             this.lblTrangThaiDA.Text = "Trạng thái:";
-            // 
-            // dtpNgayKT
-            // 
+
             this.dtpNgayKT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.dtpNgayKT.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgayKT.Location = new System.Drawing.Point(115, 492);
             this.dtpNgayKT.Name = "dtpNgayKT";
             this.dtpNgayKT.Size = new System.Drawing.Size(293, 23);
             this.dtpNgayKT.TabIndex = 6;
-            // 
-            // lblNgayKT
-            // 
+
             this.lblNgayKT.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblNgayKT.AutoSize = true;
             this.lblNgayKT.Location = new System.Drawing.Point(12, 495);
@@ -524,18 +456,14 @@
             this.lblNgayKT.Size = new System.Drawing.Size(84, 15);
             this.lblNgayKT.TabIndex = 5;
             this.lblNgayKT.Text = "Ngày kết thúc:";
-            // 
-            // dtpNgayBD
-            // 
+
             this.dtpNgayBD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.dtpNgayBD.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtpNgayBD.Location = new System.Drawing.Point(115, 452);
             this.dtpNgayBD.Name = "dtpNgayBD";
             this.dtpNgayBD.Size = new System.Drawing.Size(293, 23);
             this.dtpNgayBD.TabIndex = 4;
-            // 
-            // lblNgayBD
-            // 
+
             this.lblNgayBD.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblNgayBD.AutoSize = true;
             this.lblNgayBD.Location = new System.Drawing.Point(12, 455);
@@ -543,17 +471,13 @@
             this.lblNgayBD.Size = new System.Drawing.Size(83, 15);
             this.lblNgayBD.TabIndex = 3;
             this.lblNgayBD.Text = "Ngày bắt đầu:";
-            // 
-            // txtTenDuAn
-            // 
+
             this.txtTenDuAn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.txtTenDuAn.Location = new System.Drawing.Point(115, 412);
             this.txtTenDuAn.Name = "txtTenDuAn";
             this.txtTenDuAn.Size = new System.Drawing.Size(293, 23);
             this.txtTenDuAn.TabIndex = 2;
-            // 
-            // lblTenDuAn
-            // 
+
             this.lblTenDuAn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblTenDuAn.AutoSize = true;
             this.lblTenDuAn.Location = new System.Drawing.Point(12, 415);
@@ -561,9 +485,7 @@
             this.lblTenDuAn.Size = new System.Drawing.Size(65, 15);
             this.lblTenDuAn.TabIndex = 1;
             this.lblTenDuAn.Text = "Tên dự án:";
-            // 
-            // dgvDuAn
-            // 
+
             this.dgvDuAn.AllowUserToAddRows = false;
             this.dgvDuAn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -578,9 +500,7 @@
             this.dgvDuAn.Size = new System.Drawing.Size(396, 370);
             this.dgvDuAn.TabIndex = 0;
             this.dgvDuAn.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDuAn_CellClick);
-            // 
-            // tabKanban
-            // 
+
             this.tabKanban.Controls.Add(this.tlpKanban);
             this.tabKanban.Controls.Add(this.btnMarkDone);
             this.tabKanban.Controls.Add(this.btnMoveRight);
@@ -595,9 +515,7 @@
             this.tabKanban.TabIndex = 1;
             this.tabKanban.Text = "2. Bảng Tiến Độ (Kanban View)";
             this.tabKanban.UseVisualStyleBackColor = true;
-            // 
-            // tlpKanban
-            // 
+
             this.tlpKanban.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -616,9 +534,7 @@
             this.tlpKanban.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tlpKanban.Size = new System.Drawing.Size(1118, 598);
             this.tlpKanban.TabIndex = 10;
-            // 
-            // grpDone
-            // 
+ 
             this.grpDone.Controls.Add(this.lstDone);
             this.grpDone.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpDone.Location = new System.Drawing.Point(842, 5);
@@ -641,9 +557,7 @@
             this.lstDone.Size = new System.Drawing.Size(255, 558);
             this.lstDone.TabIndex = 0;
             this.lstDone.SelectedIndexChanged += new System.EventHandler(this.KanbanList_SelectedIndexChanged);
-            // 
-            // grpReview
-            // 
+
             this.grpReview.Controls.Add(this.lstReview);
             this.grpReview.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpReview.Location = new System.Drawing.Point(563, 5);
@@ -666,9 +580,7 @@
             this.lstReview.Size = new System.Drawing.Size(253, 558);
             this.lstReview.TabIndex = 0;
             this.lstReview.SelectedIndexChanged += new System.EventHandler(this.KanbanList_SelectedIndexChanged);
-            // 
-            // grpInProgress
-            // 
+
             this.grpInProgress.Controls.Add(this.lstInProgress);
             this.grpInProgress.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpInProgress.Location = new System.Drawing.Point(284, 5);
@@ -679,9 +591,7 @@
             this.grpInProgress.TabIndex = 7;
             this.grpInProgress.TabStop = false;
             this.grpInProgress.Text = "IN PROGRESS (Đang làm)";
-            // 
-            // lstInProgress
-            // 
+
             this.lstInProgress.BackColor = System.Drawing.Color.LightYellow;
             this.lstInProgress.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lstInProgress.FormattingEnabled = true;
@@ -691,9 +601,7 @@
             this.lstInProgress.Size = new System.Drawing.Size(253, 558);
             this.lstInProgress.TabIndex = 0;
             this.lstInProgress.SelectedIndexChanged += new System.EventHandler(this.KanbanList_SelectedIndexChanged);
-            // 
-            // grpToDo
-            // 
+
             this.grpToDo.Controls.Add(this.lstToDo);
             this.grpToDo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpToDo.Location = new System.Drawing.Point(5, 5);
@@ -704,9 +612,7 @@
             this.grpToDo.TabIndex = 6;
             this.grpToDo.TabStop = false;
             this.grpToDo.Text = "TO DO (Cần làm)";
-            // 
-            // lstToDo
-            // 
+
             this.lstToDo.BackColor = System.Drawing.Color.AliceBlue;
             this.lstToDo.Dock = System.Windows.Forms.DockStyle.Fill;
             this.lstToDo.FormattingEnabled = true;
@@ -716,9 +622,7 @@
             this.lstToDo.Size = new System.Drawing.Size(253, 558);
             this.lstToDo.TabIndex = 0;
             this.lstToDo.SelectedIndexChanged += new System.EventHandler(this.KanbanList_SelectedIndexChanged);
-            // 
-            // btnMarkDone
-            // 
+
             this.btnMarkDone.BackColor = System.Drawing.Color.PaleGreen;
             this.btnMarkDone.Location = new System.Drawing.Point(855, 14);
             this.btnMarkDone.Name = "btnMarkDone";
@@ -727,9 +631,7 @@
             this.btnMarkDone.Text = "Đánh dấu Done ✔";
             this.btnMarkDone.UseVisualStyleBackColor = false;
             this.btnMarkDone.Click += new System.EventHandler(this.btnMarkDone_Click);
-            // 
-            // btnMoveRight
-            // 
+
             this.btnMoveRight.Location = new System.Drawing.Point(700, 14);
             this.btnMoveRight.Name = "btnMoveRight";
             this.btnMoveRight.Size = new System.Drawing.Size(145, 28);
@@ -737,9 +639,7 @@
             this.btnMoveRight.Text = "Chuyển bước tiếp >>";
             this.btnMoveRight.UseVisualStyleBackColor = true;
             this.btnMoveRight.Click += new System.EventHandler(this.btnMoveRight_Click);
-            // 
-            // btnMoveLeft
-            // 
+
             this.btnMoveLeft.Location = new System.Drawing.Point(555, 14);
             this.btnMoveLeft.Name = "btnMoveLeft";
             this.btnMoveLeft.Size = new System.Drawing.Size(135, 28);
@@ -747,9 +647,7 @@
             this.btnMoveLeft.Text = "<< Lùi bước trước";
             this.btnMoveLeft.UseVisualStyleBackColor = true;
             this.btnMoveLeft.Click += new System.EventHandler(this.btnMoveLeft_Click);
-            // 
-            // btnTaiKanban
-            // 
+
             this.btnTaiKanban.Location = new System.Drawing.Point(425, 14);
             this.btnTaiKanban.Name = "btnTaiKanban";
             this.btnTaiKanban.Size = new System.Drawing.Size(110, 28);
@@ -757,27 +655,21 @@
             this.btnTaiKanban.Text = "Tải Bảng Kanban";
             this.btnTaiKanban.UseVisualStyleBackColor = true;
             this.btnTaiKanban.Click += new System.EventHandler(this.btnTaiKanban_Click);
-            // 
-            // cboKanbanDuAn
-            // 
+
             this.cboKanbanDuAn.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboKanbanDuAn.FormattingEnabled = true;
             this.cboKanbanDuAn.Location = new System.Drawing.Point(110, 16);
             this.cboKanbanDuAn.Name = "cboKanbanDuAn";
             this.cboKanbanDuAn.Size = new System.Drawing.Size(300, 23);
             this.cboKanbanDuAn.TabIndex = 1;
-            // 
-            // lblKanbanDA
-            // 
+
             this.lblKanbanDA.AutoSize = true;
             this.lblKanbanDA.Location = new System.Drawing.Point(15, 19);
             this.lblKanbanDA.Name = "lblKanbanDA";
             this.lblKanbanDA.Size = new System.Drawing.Size(76, 15);
             this.lblKanbanDA.TabIndex = 0;
             this.lblKanbanDA.Text = "Chọn Dự án:";
-            // 
-            // tabBaoCao
-            // 
+
             this.tabBaoCao.Controls.Add(this.tlpBaoCao);
             this.tabBaoCao.Location = new System.Drawing.Point(4, 24);
             this.tabBaoCao.Name = "tabBaoCao";
@@ -786,9 +678,7 @@
             this.tabBaoCao.TabIndex = 2;
             this.tabBaoCao.Text = "3. Cảnh báo Trễ hạn & Báo cáo Tiến độ";
             this.tabBaoCao.UseVisualStyleBackColor = true;
-            // 
-            // tlpBaoCao
-            // 
+
             this.tlpBaoCao.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -803,9 +693,7 @@
             this.tlpBaoCao.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 52F));
             this.tlpBaoCao.Size = new System.Drawing.Size(1118, 638);
             this.tlpBaoCao.TabIndex = 2;
-            // 
-            // grpThongKe
-            // 
+
             this.grpThongKe.Controls.Add(this.dgvThongKe);
             this.grpThongKe.Controls.Add(this.lblTongTienDoDA);
             this.grpThongKe.Controls.Add(this.btnThongKe);
@@ -818,9 +706,7 @@
             this.grpThongKe.TabIndex = 1;
             this.grpThongKe.TabStop = false;
             this.grpThongKe.Text = "Thống kê Tỷ lệ % Hoàn thành Công việc của Thành viên (GROUP BY & ExecuteScalar)";
-            // 
-            // dgvThongKe
-            // 
+
             this.dgvThongKe.AllowUserToAddRows = false;
             this.dgvThongKe.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -832,9 +718,7 @@
             this.dgvThongKe.ReadOnly = true;
             this.dgvThongKe.Size = new System.Drawing.Size(1082, 251);
             this.dgvThongKe.TabIndex = 4;
-            // 
-            // lblTongTienDoDA
-            // 
+
             this.lblTongTienDoDA.AutoSize = true;
             this.lblTongTienDoDA.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblTongTienDoDA.ForeColor = System.Drawing.Color.DarkBlue;
@@ -843,9 +727,7 @@
             this.lblTongTienDoDA.Size = new System.Drawing.Size(219, 17);
             this.lblTongTienDoDA.TabIndex = 3;
             this.lblTongTienDoDA.Text = "Tiến độ hoàn thành dự án: 0%";
-            // 
-            // btnThongKe
-            // 
+
             this.btnThongKe.Location = new System.Drawing.Point(400, 24);
             this.btnThongKe.Name = "btnThongKe";
             this.btnThongKe.Size = new System.Drawing.Size(130, 28);
@@ -853,27 +735,21 @@
             this.btnThongKe.Text = "Xem Thống Kê";
             this.btnThongKe.UseVisualStyleBackColor = true;
             this.btnThongKe.Click += new System.EventHandler(this.btnThongKe_Click);
-            // 
-            // cboThongKeDuAn
-            // 
+
             this.cboThongKeDuAn.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboThongKeDuAn.FormattingEnabled = true;
             this.cboThongKeDuAn.Location = new System.Drawing.Point(105, 25);
             this.cboThongKeDuAn.Name = "cboThongKeDuAn";
             this.cboThongKeDuAn.Size = new System.Drawing.Size(280, 23);
             this.cboThongKeDuAn.TabIndex = 1;
-            // 
-            // lblThongKeDA
-            // 
+
             this.lblThongKeDA.AutoSize = true;
             this.lblThongKeDA.Location = new System.Drawing.Point(15, 28);
             this.lblThongKeDA.Name = "lblThongKeDA";
             this.lblThongKeDA.Size = new System.Drawing.Size(76, 15);
             this.lblThongKeDA.TabIndex = 0;
             this.lblThongKeDA.Text = "Chọn Dự án:";
-            // 
-            // grpOverdue
-            // 
+
             this.grpOverdue.Controls.Add(this.dgvOverdue);
             this.grpOverdue.Controls.Add(this.btnTaiOverdue);
             this.grpOverdue.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -883,9 +759,7 @@
             this.grpOverdue.TabIndex = 0;
             this.grpOverdue.TabStop = false;
             this.grpOverdue.Text = "Cảnh báo Công việc Trễ hạn (Quá HanNop & Trạng thái != Done - Đọc bằng SqlDataReader)";
-            // 
-            // dgvOverdue
-            // 
+
             this.dgvOverdue.AllowUserToAddRows = false;
             this.dgvOverdue.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
             | System.Windows.Forms.AnchorStyles.Left)
@@ -897,9 +771,7 @@
             this.dgvOverdue.ReadOnly = true;
             this.dgvOverdue.Size = new System.Drawing.Size(1082, 229);
             this.dgvOverdue.TabIndex = 1;
-            // 
-            // btnTaiOverdue
-            // 
+
             this.btnTaiOverdue.BackColor = System.Drawing.Color.MistyRose;
             this.btnTaiOverdue.Location = new System.Drawing.Point(15, 22);
             this.btnTaiOverdue.Name = "btnTaiOverdue";
@@ -908,9 +780,7 @@
             this.btnTaiOverdue.Text = "Kiểm tra Task Trễ Hạn";
             this.btnTaiOverdue.UseVisualStyleBackColor = false;
             this.btnTaiOverdue.Click += new System.EventHandler(this.btnTaiOverdue_Click);
-            // 
-            // frmMain
-            // 
+
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1180, 720);
