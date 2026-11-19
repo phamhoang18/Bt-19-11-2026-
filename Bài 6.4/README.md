@@ -17,12 +17,12 @@
 ### 2. Màn hình Quản lý Danh mục (CRUD - Thêm/Sửa/Xóa):
 ![Màn hình CRUD](screenshots/Bài_6.4_add_PT.png)
 ![Màn hình CRUD](screenshots/Bài_6.4_update_pt.png)
-![Màn hình CRUD](screenshots/Bài_6.1_delete_pt.png)
-![Màn hình CRUD](screenshots/Bài_6.1_search.png)
+![Màn hình CRUD](screenshots/Bài_6.4_delete_pt.png)
+![Màn hình CRUD](screenshots/Bài_6.4_search.png)
 
 ### 3. Màn hình Thực thi Nghiệp vụ chính (Lập Hóa đơn / Bán hàng / Chấm công / Đặt phòng):
 ![Màn hình Nghiệp vụ](screenshots/Bài_6.4_add_phiếu.png)
-![Màn hình Nghiệp vụ](screenshots/Bài_6.4_lâp_phiếu.png)
+![Màn hình Nghiệp vụ](screenshots/Bài_6.4_lập_phiếu.png)
 
 ### 4. Màn hình Báo cáo - Thống kê:
 ![Màn hình Thống kê](screenshots/Bài_6.4_click.png)
