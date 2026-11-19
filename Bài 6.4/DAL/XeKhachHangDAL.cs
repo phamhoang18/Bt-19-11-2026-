@@ -73,7 +73,6 @@ namespace GarageManagement.DAL
             return list;
         }
 
-        // Lưu thông tin Chủ xe (tạo mới hoặc cập nhật theo SĐT) và Biển số xe bằng SqlTransaction
         public bool LuuTiepNhanXe(KhachHangDTO kh, XeDTO xe, out string message)
         {
             using (SqlConnection conn = DBConnection.GetConnection())
@@ -83,7 +82,6 @@ namespace GarageManagement.DAL
                 try
                 {
                     int maKH = 0;
-                    // Kiểm tra khách hàng đã tồn tại qua số điện thoại chưa
                     string sqlCheckKH = "SELECT MaKH FROM KhachHang WHERE DienThoai = @DienThoai";
                     using (SqlCommand cmdCheck = new SqlCommand(sqlCheckKH, conn, trans))
                     {
@@ -116,7 +114,6 @@ namespace GarageManagement.DAL
                         }
                     }
 
-                    // Kiểm tra xe đã tồn tại chưa -> Insert hoặc Update
                     string sqlCheckXe = "SELECT COUNT(*) FROM Xe WHERE BienSo = @BienSo";
                     using (SqlCommand cmdCheckXe = new SqlCommand(sqlCheckXe, conn, trans))
                     {
