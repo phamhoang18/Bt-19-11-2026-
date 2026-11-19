@@ -273,7 +273,6 @@ namespace GarageManagement.GUI
 
             int soLuong = (int)nudSoLuongThay.Value;
 
-            // Cộng dồn nếu phụ tùng đã có trong danh sách tạm
             var existing = _gioPhuTungTam.FirstOrDefault(x => x.MaPhuTung == pt.MaPhuTung);
             if (existing != null)
             {
@@ -358,7 +357,6 @@ namespace GarageManagement.GUI
             }
             else
             {
-                // Hiển thị thông báo khi tồn kho không đủ và Transaction đã Rollback
                 MessageBox.Show(msg, "Cảnh báo Tồn kho (Transaction Rollback)", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
